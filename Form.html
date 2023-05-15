@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <form>
+        <fieldset>
+            <legend>Enquiry</legend>
+        Name: <input type="text" name="name" value="" placeholder="Please enter your name here"/>
+        <br/>
+        <br/>
+        Address: <textarea name="address" value="" placeholder="Please enter your address here"></textarea>
+        <br/>
+        <br/>
+        Gender:
+        <input type="radio" value="m" name="Gender"  /> Male
+        <input type="radio" value="f" name="Gender"  />Female
+        <input type="radio" value="t" name="Gender"  />Trans
+        <br/>
+        <br/>
+        Country:
+        <select>
+            <option> Please select a country</option>
+            <optgroup lebel="ASIA">
+            <option value="india">India</option>
+            <option value="Pakistan">Pakistan</option>
+            </optgroup>
+            <optgroup lebel="Africa">
+            <option value="Laos">Laos</option>
+            <option value="Uganda">Uganda</option>
+            </optgroup>
+            <option value="Australia">Australia</option>
+            <option value="America">America</option>
+        </select>
+        <br/>
+        <br/>
+        Hobbies:
+        <input type="checkbox" value="hobbies"> Bike riding
+        <input type="checkbox" value="hobbies"> Dancing
+        <input type="checkbox" value="hobbies"> Singing
+        <input type="checkbox" value="hobbies"> Travelling
+        <br/>
+        <br/>
+        Image:
+        <input type="file" name="image" />
+        <br/>
+        <br/>
+        <input type="submit" value="send" />
+        <input type="reset" value="reset" />
+    </fieldset>
+    </form>
+</body>
+</html>

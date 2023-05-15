@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+The First Web Page
+</title>
+
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<h2> html is not a programming language </h2>
+<img src=" C:\Users\viren\Downloads\mahakaleshwar-jyotirlinga-ujjain-jaisinghpura-madhya-pradesh.jpg">
+
+<p> The Mahakal temple is situated at <br> ujjain city</p>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
