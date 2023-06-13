@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet.css" href="style.css">
+<title>
+Page title
+</title>
+</head>
+
+<body>
+<h1> this is paragraph</h1>
+
+<strong> Jay hanuman</strong>
+
+<p style="color:blue;"> A blue Heading </p>
+
+<h1 style="color:red;"> A red paragraph </h1>
+
+
+</h1>
+</body>
+</html>

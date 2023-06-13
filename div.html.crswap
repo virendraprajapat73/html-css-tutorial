@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        .main{
+            width: 500px;
+            height:500px;
+           
+        }
+        #parent-row-1{
+            width: 50px;
+            height:250px;
+            background-color: yellow;
+        }
+        #parent-row-2{
+            width: 250px;
+            height:250px;
+            background-color: blue;
+        }
+        .col-1{
+            width: 250px;
+            height:250px;
+            background-color: green;
+            float:left;
+        }
+        .col-2{
+            width: 250px;
+            height:250px;
+            background-color:red;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"><!--main div-->
+        <div id="parent-row-1"> <!--parent-row-1-->
+            <div class="col-1"> <!--col-1-->
+                Home
+            </div>
+            <div class="col-2"><!--col-2-->
+                About
+            </div>
+        </div>
+        <div id="parent-row-2"> <!--parent-row-2-->
+            <div class="col-1"> <!--col-1-->
+                Gallery
+            </div>
+            <div class="col-2"><!--col-2-->
+                Contact
+            </div>
+        </div>
+        
+    </div>
+    <h2>hii</h2>
+</body>
+</html>

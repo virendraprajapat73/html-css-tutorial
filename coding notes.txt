@@ -1,0 +1,5 @@
+1. HTML/CSS -1 month
+2. Javascript-1.5 months
+3. React JS- 1 months
+4. Redux-5 days
+5. Hooks-5 days

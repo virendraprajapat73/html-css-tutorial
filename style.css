@@ -1,35 +1,15 @@
-body{
-    font-family:"open sans", sans-serif;
+body {
+  background-color: lightblue;
 }
-.box{
-    background-color: crimson;
-    width:180px;
-    height: 180px;
-    /*padding:20px;*/
-    padding-left: 20px;
-    /*border:10px solid aqua;*/
-    border-width:10px;
-    border-style: solid;
-    border-color: aqua;
-    border-radius:20px;
-    margin: 20px;
-    /*outline:10px solid greenyellow;*/
-    box-shadow:3px 3px 6px 2px rgba(0, 0, 0, 0.7),6px 6px 12px yellow;
-    
-    /*margin-left:40px;*/
-    /*margin-right:20px;*/
-    /*margin-top:22px;*/
-
+h1 {
+  color: blue;
 }
-span{
-    display:inline-block;
-    background-color: crimson;
-    width:180px;/*inline block does not give width and height in output*/
-    height: 180px;
-    padding:20px;
-    border:10px solid aqua;
-    /*margin: 20px;*/
+p {
+  color: black;
 }
-.parent{
-    font-size: 10px;
+.hotdog p{
+  Background: brown;
+}
+.hotdog p.musturd{
+  background:yellowgreen;
 }
